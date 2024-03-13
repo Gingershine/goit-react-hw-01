@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    
+}
+.avatar {
+    background-color: rgb(36, 36, 36);
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.username {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.userData {
+    color: gray;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.infoList {
+    display: flex;
+    border-top: 2px solid rgb(104, 103, 103);
+    width: ((100%/3));
+    background-color: rgb(184, 183, 183);
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0;
+    
+}
+
+.infoItem {
+    font-size: 30px;
+    padding: 10px;
+    
+}
+
+.infoItem:not(:last-child) {
+border-right: 2px solid rgb(104, 103, 103);
+}
+
+.infoNumbers {
+    font-weight: bold;
+}

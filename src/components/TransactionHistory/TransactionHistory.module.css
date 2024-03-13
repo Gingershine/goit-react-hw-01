@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+
+.table {
+    font-size: 30px;
+    border-collapse: collapse;
+    border: 3px solid black;
+    width: 680px;
+    text-align: center;
+       
+}
+
+.thead {
+    background-color: #282727;
+    color: white;
+    
+}
+
+.tbody tr:nth-child(even) {
+    background-color: #a6a4a6;
+   
+}
+
+.tbody td {
+    border-top: 2px solid black;
+    
+        
+}
+
+.tbody td:not(:last-child) {
+    border-right: 2px solid black ;
+}
